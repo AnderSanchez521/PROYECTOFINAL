@@ -1,0 +1,59 @@
+<html>
+
+	<head>
+		<title>Formularios Ej.1</title>
+	</head>
+	
+	<body>
+	
+	<h1 align=center>Visitantes</h1>
+	
+	<hr size=12, width=80%><br>
+	
+		<form action="......", method="post">
+		
+			Tu nombre:<input type=text, name="nombre", size=20/>
+			<br>
+			Tu clave personal:<input type=text, name "apellido", size=30/>
+			
+			<p>
+				Archivos a Enviar:<br>
+				<input type = checkbox name = archivo1 value = "Manual" /> Manual de Html<br>
+				<input type = checkbox name = archivo2 value ="Mapthis" /> ProgramaMapthis<br>
+				<input type = checkbox name = archivo3 value ="Help" /> Archivo de Ayuda<br>
+			</p>
+	
+			<p>
+				Tu edad: <br>
+				<input type = radio name = edad value = "<21"/>Menos de 21 años<br>
+				<input type = radio name = edad value = "20-40"/>Entre 20 y 40 años<br>
+				<input type = radio name = edad value = ">40"/>Mas de 40 años<br>
+			</p>
+			
+			<p>
+				<input type = hidden name = lugar value = "Pagina personal"/>
+				¿Como encontraste mi pagina? <br>
+				<select name = donde>
+					<option value = "casualidad"> De casualidad </option>
+					<option value = "Ole"> Por el buscador Ole </option>
+					<option value = "Yahoo"> Por el buscador Yahoo </option>
+					<option value = "Comentario"> Me la comentarios </option>
+				</select>
+			</p>
+			
+			<p>
+				Tus Comentarios:
+				<br/>
+				<textarea name= comentario rows = 5 cols = 40 wrap = virtual></textarea>
+			</p>
+			<p>
+				<input type=reset value="Reinicio"/>
+			</p>
+			
+		</form>
+	
+				<a href="../Resumen ejercicios.html" class="back-button">Volver a la página principal</a>
+
+	
+	</body>
+</html>

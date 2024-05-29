@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<link href="../Styles/styleejercicios.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="../Images/Brawl_Stars_logo_PNG3.png">
+<title>Resumen ejercicios</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+	<header>
+		<table id="menu">
+				<tr>
+					<th><a href="../Index.html"><img src="../Images/Brawl_Stars_logo_PNG3.png" alt=""/></a></th>
+					<th><a href="Secundaria.html">Brawlers</a></th>
+					<th><a href="Resumen ejercicios.html">Ejercicios</a></th>
+					<th><a href="Formulario.html">Brawl Pass</a></th>
+				</tr>
+		</table>
+	</header>
+	<main>
+		<div class="opcionesmenu">
+    		<a href="#" class="active" onclick="showContent(event, 'content1')">Ejercicios sin CSS</a>
+    		<a href="#" onclick="showContent(event, 'content2')">Ejercicios con CSS</a>
+		</div>
+		<div id="content1" class="content active">
+			<div class="exercise-grid">
+				<div class="exercise-item">
+					<img src="../Images/Ejercicios/baloncesto.png" alt="Baloncesto">
+					<a href="../Pages/Ejercicios/Index - Baloncesto.html">Baloncesto</a>
+					<p>Página que contiene reglas basicas e informacion acerca del Baloncesto.</p>
+				</div>
+				<div class="exercise-item">
+					<img src="../Images/Ejercicios/inmoviliaria.png" alt="Inmoviliaria">
+					<a href="../Pages/Ejercicios/Index - Inmoviliaria.html">Inmoviliaria</a>
+					<p>Página con una tabla que contiene diferentes aspectos de una inmoviliaria y un gif debajo</p>
+				</div>
+				<div class="exercise-item">
+					<img src="../Images/Ejercicios/Visitantes.png" alt="Visitantes">
+					<a href="../Pages/Ejercicios/Index - Visitantes.html">Visitantes</a>
+					<p>Pequeño formulario a rellenar por los visitantes.</p>
+				</div>
+				<div class="exercise-item">
+					<img src="../Images/Ejercicios/Listas.png" alt="Listas">
+					<a href="../Pages/Ejercicios/Index - Listas.html">Listas</a>
+					<p>Ejercicio de HTML utilizando listas anidadas.</p>
+				</div>
+			</div>
+		</div>
+		<div id="content2" class="content">
+			<div class="exercise-grid">
+				<div class="exercise-item">
+					<img src="../Images/Ejercicios/Dia de la madre.png" alt="Dia de la madre">
+					<a href="../Pages/Ejercicios/Index - Dia de la madre.html">Dia de la madre</a>
+					<p>Página con una pequeña información acerca del dia de la madre.</p>
+				</div>
+				<div class="exercise-item">
+					<img src="../Images/Ejercicios/Fuentes.png" alt="Euskadi">
+					<a href="../Pages/Ejercicios/Index - Fuentes.html">Fuentes personalizadas</a>
+					<p>Página creada para probar y bisualizar fuentes descargadas de internet.</p>
+				</div>
+				<div class="exercise-item">
+					<img src="../Images/Ejercicios/Efectos solares.png" alt="Efectos Solares">
+					<a href="../Pages/Ejercicios/Index - Efectos solares.html">Efectos Solares</a>
+					<p>Ejercicio usando estilos para dar características de formato, en el que se explican los efectos solares.</p>
+				</div>
+				<div class="exercise-item">
+					<img src="../Images/Ejercicios/Partidos politicos.png" alt="Partidos politicos">
+					<a href="../Pages/Ejercicios/Index - Partidos politicos.html">Partidos politicos</a>
+					<p>Ejercicio usando estilos, sobre diferentes partidos políticos.</p>
+				</div>
+			</div>
+		</div>
+		<script>
+			function showContent(event, contentId) {
+				event.preventDefault();
+				document.querySelectorAll('.menu-tabs a').forEach(tab => tab.classList.remove('active'));
+				document.querySelectorAll('.content').forEach(content => content.classList.remove('active'));
+				event.currentTarget.classList.add('active');
+				document.getElementById(contentId).classList.add('active');
+			}
+		</script>
+	</main>
+	<footer>
+			<div id="pieizquierda">
+				<div id="cont_722b4c60b192e2b0a0bdc4010b0c750c"><script type="text/javascript" async src="https://www.tiempo.com/wid_loader/722b4c60b192e2b0a0bdc4010b0c750c"></script></div>
+			</div>
+			<div id="piecentro">
+				<img class="mapainteractivo" src="../Images/redes.png" usemap="#redes" alt="" style="border-style:none">
+				<map id="redes" name="redes">
+					<area shape="rect" alt="Facebook" coords="0,0,64,62" href="https://www.facebook.com/CentroIbaiondo/?locale=es_ES" title="Facebook" target="_blank">
+					<area shape="rect" alt="Instagram" coords="64,0,118,62" href="https://www.instagram.com/ibaiondofp/" title="Instagram" target="_blank">
+					<area shape="rect" alt="X" coords="118,0,200,62" href="https://twitter.com/IbaiondoFP?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" title="X" target="_blank">
+				</map>
+				<p>Página creada por Ander Sanchez <span class="copyleft">&copy;</span></p>
+			</div>
+
+			<div id="piederecha">
+		    	<img class="QR" src="../Images/frame.png" alt="" >
+			</div>
+		</footer>
+</body>
+</html>
