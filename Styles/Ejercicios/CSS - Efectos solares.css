@@ -1,0 +1,30 @@
+body {
+	background-color: #000080 ;
+	color: white ;
+	font-size: 11pt ;
+	}
+h2 {
+	text-align: center ;
+	color: #572364 ;
+	font-size: 14pt ;
+	font-weight: bold ;
+	}
+p.resalta {
+	font-size: 14pt ;
+	text-align: center ;
+	color: orange ;
+	}
+p.rojo {
+	font-size: 14pt ;
+	color: red ;
+	}
+p.verde {
+	font-size: 16pt ;
+	color: green ;
+	text-decoration: italic ;
+	}
+p.azul {
+	font-size: 18pt ;
+	color: #2271b3 ;
+	text-decoration: underline ;
+	}

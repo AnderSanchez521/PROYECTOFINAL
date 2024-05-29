@@ -1,0 +1,110 @@
+@font-face {
+    font-family: MiFuente;
+    src: url('../Fonts/Nougat-ExtraBlack.ttf');
+	}
+body{
+	height:auto;
+	width: auto;
+	margin-left: 5%;
+	font-family: MiFuente;
+	background-image: url("../Images/fondoform.jpg");
+	}
+header{
+	height:10%;
+	width: 90%;
+	background-color: mediumpurple;
+	}
+main{
+	height:70%;
+	width: 90%;
+	background-color: rebeccapurple;
+	display: flex;
+	flex-direction: row;
+	}
+#formderecha{
+	width: 50%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border-left-style: solid;
+	border-left-color: mediumpurple;
+	}
+#formizquierda{
+	width: 50%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	border-right-style: solid;
+	border-right-color: mediumpurple;
+	}
+footer{
+	height:20%;
+	width: 90%;
+	margin-top: 2%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	background-color: mediumpurple;
+	border-style: solid;
+	border-color: rebeccapurple;
+	}
+#pieizquierda{
+	width:33%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	text-align: center;
+	}
+#piecentro{
+	width: 33%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	text-align: center;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: rebeccapurple;
+	border-left-color: rebeccapurple;
+	}
+#piederecha{
+	width: 33%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	text-align: center;
+	}
+#menu{
+	width: 100%;
+	border-color: rebeccapurple;
+	border-style: solid;
+	padding: 3px;
+	font-size: 12pt;
+	color: white;
+	}
+#menu a{
+    text-decoration: none;
+    color: gold;
+    font-size: 16px;
+    }
+#menu a:hover {
+    color: rebeccapurple;
+    font-size: 18px;
+    }
+table img{
+	height: 50px
+	}
+.formulario{
+	cellspacing: 100px; 
+	cellpadding: 10px;
+	width: 100%; 	
+	color: white;
+	}
+.mapainteractivo{
+	width: 175px;
+	height: 60px;
+	text-align: center;
+	}
+.QR{
+	width: 125px;
+	height: 125px;	
+	}
+.copyleft {
+	display:inline-block;
+	transform: rotate(180deg);
+	color:gold;
+	}

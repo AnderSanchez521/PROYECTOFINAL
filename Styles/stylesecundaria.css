@@ -1,0 +1,125 @@
+@font-face {
+    font-family: MiFuente;
+    src: url('../Fonts/Nougat-ExtraBlack.ttf');
+	}
+body{
+	height:auto;
+	width: auto;
+	margin-left: 5%;
+	font-family: MiFuente;
+	background-image: url("../Images/fondoform.jpg");
+	}
+header{
+	height:10%;
+	width: 90%;
+	background-color: mediumpurple;
+	}
+main {
+    height: 70%;
+    width: 90%;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	}
+.grupoimagenes {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 10px;
+	}
+main img {
+    height: 175px;
+    width: 175px;
+    margin: 0 40px;
+	cursor: pointer;
+	}
+.imagenes{
+	border-style: solid;
+	border-width: thin;
+	border-color: gold;
+	text-align: justify;
+    margin-bottom: 10px;
+	padding: 6px;
+	}
+.texto{
+	text-align: center;
+	color: gold; 
+	}
+footer{
+	height:20%;
+	width: 90%;
+	margin-top: 2%;
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+	background-color: mediumpurple;
+	border-color: rebeccapurple;
+	border-style: solid;
+	}
+footer img{
+	text-align: center;
+	width: 100%;
+	}
+#pieizquierda{
+	width:33%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	text-align: center;
+	}
+#piecentro{
+	width: 33%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	text-align: center;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: rebeccapurple;
+	border-left-color: rebeccapurple;
+	}
+#piederecha{
+	width: 33%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+	text-align: center;
+	}
+#menu{
+	width: 100%;
+	border-color: rebeccapurple;
+	border-style: solid;
+	padding: 3px;
+	font-size: 12pt;
+	color: white;
+	}
+#menu a{
+    text-decoration: none;
+    color: gold;
+    font-size: 16px;
+    }
+#menu a:hover {
+    color: rebeccapurple;
+    font-size: 18px;
+    }
+table img{
+	height: 50px
+	}
+.mapainteractivo{
+	width: 175px;
+	height: 60px;
+	text-align: center;
+	}
+.QR{
+	width: 125px;
+	height: 125px;	
+	}
+.copyleft {
+	display:inline-block;
+	transform: rotate(180deg);
+	color:gold;
+	}
+h2{
+	text-align: center;
+	color: gold;
+	font-weight: bold;
+	}
