@@ -9,6 +9,12 @@ body{
 	font-family: MiFuente;
 	background-image: url("../Images/fondoform.jpg");
 	}
+hr{
+	width:auto;
+	margin-right: 5%;
+	margin-left: 5%;
+	border-color: gold;
+	}
 header{
 	height:10%;
 	width: 90%;
@@ -132,14 +138,3 @@ table img{
 	transform: rotate(180deg);
 	color:gold;
 	}
-
-/*hasta 480px: Mobile devices*/
-@media (max-width:480px){}
-
-/* 481px—768px: iPads, Tablets */
-@media (min-width:481px) and (max-width:768px){}
-
-/* /*769px minimo: laptops*/
-@media (min-width:769px){}
-
-@media (orientation: landscape){}
